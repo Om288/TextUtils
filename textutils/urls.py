@@ -20,7 +20,5 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name = 'index'),
-    path('Analyze/', views.Analyze, name = "Analyze"),
-    # path('contect_us/', views.contect, name = "contect"),
-    # path('urls/',views.urls, name = 'youtube'),
+    path('Analyze/', views.Analyze, name = "Analyze"
 ]
